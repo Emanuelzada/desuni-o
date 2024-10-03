@@ -49,14 +49,6 @@ const perguntas = [
             }
         ]
     },
-    {
-        enuncia
-            {
-            },
-            {
-            }
-        ]
-    },
 ];
 
 
@@ -92,7 +84,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Na sociedade atual, percebemos que a união na família é muito importante para que haja uma boa base estrutural. Sem isso, acabamos crescendo sem ter muitas lembranças boas sobre o nosso passado, e isso pode acarretar em uma possível depressão com o passar dos anos, o que faz com que a gente não se sinta mais a vontade para poder fazer nossas obrigações e coisas de lazer.";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
